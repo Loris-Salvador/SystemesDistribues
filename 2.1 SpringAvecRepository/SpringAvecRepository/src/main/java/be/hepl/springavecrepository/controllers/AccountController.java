@@ -22,12 +22,7 @@ public class AccountController {
     @RequestMapping("/accounts")
     public String getAccounts(Model model)
     {
-        List<Account> productList = Arrays.asList(
-                new Account(1,"test1", 29.99),
-                new Account(2,"test 2", 39.99),
-                new Account(3, "test 3", 19.99)
-        );
-        model.addAttribute("accounts", productList);//repo.findall
+        model.addAttribute("accounts", accountRepository.findAll());
         return "accounts/list";
     }
 }

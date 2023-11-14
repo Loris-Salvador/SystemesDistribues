@@ -10,12 +10,38 @@ package be.hepl.springavecrepository.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
 public class Account {
 
     @Id
     private long accountId;
+    private String bankName;
+    private double prix;
+
+
+    public Account(int i, String test1, double v) {
+        accountId = i;
+        bankName = test1;
+        prix = v;
+    }
+
+    public Account() {
+
+    }
+
+    public long getaccountId() {
+        return accountId;
+    }
+
+    public String getBankName() {
+        return bankName;
+    }
+
+    public double getaccountAmount() {
+        return prix;
+    }
 }
 
 
@@ -58,7 +84,6 @@ public class AccountController {
 
     public AccountController(AccountRepository accountRepository)
     {
-        System.out.println("wesh");
         this.accountRepository = accountRepository;
     }
 
@@ -78,6 +103,7 @@ public class AccountController {
 
 package be.hepl.springavecrepository.bootstrap;
 
+import be.hepl.springavecrepository.model.Account;
 import be.hepl.springavecrepository.repositories.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -91,9 +117,14 @@ public class InitDb implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        System.out.println("INIT DB");
+        Account a = new Account(1,"test1", 29.99);
+        Account b = new Account(2,"test 2", 39.99);
+
+        accountRepository.save(a);
+        accountRepository.save(b);
     }
 }
+
 
 
 //HTML
@@ -130,3 +161,5 @@ public class InitDb implements CommandLineRunner {
 spring.h2.console.enabled=true
 
 //tester avec localhost:8080/accounts puis localhost:8080/h2-console (pour la bd)
+
+//base de donnee est embarque avec et du coup les save se font la, et pas besoin de faire de classe qui implemente le l'interface repository Spring Data JPA fournit une implémentation de cette interface à l'exécution

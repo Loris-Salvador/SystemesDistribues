@@ -5,3 +5,7 @@ https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 choisir windows installer
 
 java -version pour verifier
+
+utiliser spring initializer sur intelij dans new project c'est 100 plus simple que le ptn de site
+
+j'utilise SDK 21 pour tout
