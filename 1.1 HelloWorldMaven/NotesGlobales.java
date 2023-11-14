@@ -131,6 +131,8 @@ public class GreeterTest {
 
 //assertThat est une methode qui permet de realiser dans test ici on regarde si la methode sayHello de greeter contient bien "hello"
 
+//executer un jar java -jar ./target/<nomjar> (avoir fais mvn -package avant)
+
 
 
 
