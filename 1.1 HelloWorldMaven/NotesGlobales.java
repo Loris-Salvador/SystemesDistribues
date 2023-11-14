@@ -94,6 +94,20 @@ IMPORTANT : maven fonctionne en cycle cad que quandd vous faites en mvn compile 
 
 //une fois maven recharger il ira voir localement dans le repertoire m2 si la dependances existe et sinon il ira les chercher sur internet
 
+package hello;
+
+import org.joda.time.LocalTime;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        LocalTime localTime = new LocalTime();
+        System.out.println(localTime);
+        Greeter greeter = new Greeter();
+        System.out.println(greeter.sayHello());
+    }
+}
+
+
 /*TEST*/
 
 //ajouter ca si ce n'est fait

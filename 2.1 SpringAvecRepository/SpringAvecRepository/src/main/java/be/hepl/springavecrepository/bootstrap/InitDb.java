@@ -13,5 +13,6 @@ public class InitDb implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+        System.out.println("INIT DB");
     }
 }

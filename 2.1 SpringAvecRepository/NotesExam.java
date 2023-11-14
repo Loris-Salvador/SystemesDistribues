@@ -1,3 +1,9 @@
+/* DEMARRAGE PROJET : spring intializer et ajouter dependances web, thymeleaf, data jpa, h2 db*/
+
+//repo, model, initDb, controller
+
+//HTML
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

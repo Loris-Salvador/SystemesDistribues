@@ -1,9 +1,13 @@
 package be.hepl.springavecrepository.controllers;
 
+import be.hepl.springavecrepository.model.Account;
 import be.hepl.springavecrepository.repositories.AccountRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.util.Arrays;
+import java.util.List;
 
 @Controller
 public class AccountController {
@@ -18,7 +22,12 @@ public class AccountController {
     @RequestMapping("/accounts")
     public String getAccounts(Model model)
     {
-        model.addAttribute("accounts", accountRepository.findAll());
+        List<Account> productList = Arrays.asList(
+                new Account(1,"test1", 29.99),
+                new Account(2,"test 2", 39.99),
+                new Account(3, "test 3", 19.99)
+        );
+        model.addAttribute("accounts", productList);//repo.findall
         return "accounts/list";
     }
 }
