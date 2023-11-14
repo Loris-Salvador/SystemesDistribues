@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <table>
+    <tr>
+        <th>ID</th>
+        <th>Bank</th>
+        <th>Account</th>
+    </tr>
+    <tr th:each="account : ${accounts}">
+      <td>th:text="${account.getaccountId()}</td>
+      <td>th:text="${account.getBank().getBankName}</td>
+      <td>th:text="${account.getaccountAmount()}</td>
+    </tr>
+  </table>
+
+</body>
+</html>

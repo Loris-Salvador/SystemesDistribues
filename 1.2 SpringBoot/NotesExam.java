@@ -1,1 +1,1 @@
-//faire une une web app qui retourne String grace a un controller rest
+//faire une une web app qui retourne String grace a un controller rest + bean?
