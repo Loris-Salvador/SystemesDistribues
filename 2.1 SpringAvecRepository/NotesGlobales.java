@@ -65,7 +65,7 @@ import org.springframework.stereotype.Repository;
 public interface AccountRepository extends CrudRepository<Account, Long> {
 }
 
-//Cette interface générique est fournie par Spring Data JPA. Elle offre des méthodes CRUD (Create, Read, Update, Delete) de base pour travailler avec des entités
+//Cette interface (Crud) générique est fournie par Spring Data JPA. Elle offre des méthodes CRUD (Create, Read, Update, Delete) de base pour travailler avec des entités
 
 
 //Controller
@@ -96,7 +96,7 @@ public class AccountController {
 }
 
 
-//model.addAttribute("accounts", accountRepository.findAll()) : Cette ligne ajoute un attribut
+//model.addAttribute("accounts", accountRepository.findAll()) : Cette ligne ajoute un attribut lie
 //appelé "accounts" au modèle (Model). Cet attribut est associé à la liste des comptes récupérée à partir de accountRepository.findAll().
 
 //InitDb
@@ -153,7 +153,6 @@ public class InitDb implements CommandLineRunner {
 </body>
 </html>
 
-//pour tester rajouter des propriete a la classe account et lui faire des getters qui ont les meme nom que les attribue dans les th:text
 
 
 //Properties

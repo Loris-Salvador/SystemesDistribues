@@ -1,8 +1,8 @@
 /*DEMARRAGE PROJET : SPRING INITIALIZER PAS DE DEPENDANCES*/
 
-/*on montre l'utilisation de qualifier imaginon un controller a besoind d'une dependance
-vers un service (interface) si plusieur classe implement l'interface lequel va etre chois par Spring?
-2 maniere : soit on met annotation @Primary l'implementation qu'on veut prioriser soit avec des qualifier pour preciser
+/*on montre l'utilisation de qualifier imaginons un controller a besoid d'une dependance
+vers un service (interface) si plusieurs classes implementent l'interface lequel va etre choisis par Spring?
+2 maniere : soit on met annotation @Primary sur l'implementation qu'on veut prioriser soit avec des qualifier pour preciser
 exactement lequel on veut */
 
 package be.hepl.qualifier.service;

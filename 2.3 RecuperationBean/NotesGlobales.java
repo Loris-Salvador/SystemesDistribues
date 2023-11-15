@@ -5,7 +5,7 @@ aController controller = (aController) ctx.getBean("aController");
 
 //attention peut importe la classe le nom en param de getBean commence par une minuscule
 	
-//ctx est le context  qui permet de savoir tout les bean utiliser par spring (conteneur de bean)
+//ctx est le context  qui permet de savoir tout les bean utilisés par spring (conteneur de bean)
 
 //classes au cas ou
 

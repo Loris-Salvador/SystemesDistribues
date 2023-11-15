@@ -86,9 +86,9 @@ public class MessageController {
 }
 
 
-//Pareill que Service annotation Controller etend de Component donc spring instancie
+//Pareil que Service annotation Controller etend de Component donc spring instancie
 
-//html que renvoie le controller et donc on modifie l'attribut message dans le html dans le controller grace a thymeleaf qui permet des template
+//html que renvoie le controller et donc on modifie l'attribut message dans le html dans le controller grace a thymeleaf qui permet des templates
 
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">

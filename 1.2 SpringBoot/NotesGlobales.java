@@ -19,7 +19,7 @@ public class HelloController {
 
 /*
 
-@RestController : combinaise de l'annotation controller + responbody car on veut renvoyer des data plutot qu'une vue
+@RestController : combinaise de l'annotation controller + responbody car on veut renvoyer des data plutot qu'une vue (html)
 @GetMapping : declinaison de RequestMapping qui pourrais etre utilise (@RequestMapping(value = GET, path = "/hello"))
 
 */
@@ -68,9 +68,9 @@ public class Application {
 	-Configuration : indique a spring que cette classes peut etre source de bean
 	-ComponentScan : indique a spring de chercher des config dans un package et ses sous-packages
 
-@Bean : indique a spring que cette methode retourne un bean qui sera gerer par Spring
+@Bean : indique a spring que cette methode retourne un bean qui sera gerer spring lui meme
 
-CommandLineRunner est une interface qui implement une methode run et vu qu'on renvoie un bean et que SpringApplication est une configuration Spring va lancer cette methode run au demarrage
+CommandLineRunner est une interface qui implemente une methode run et vu qu'on renvoie un bean et que SpringApplication est une configuration Spring va lancer cette methode run au demarrage
 
 */
 

@@ -25,9 +25,9 @@ public class Greeter {
 
 /*
 
-mvn -v -> permet de savoir si maven est bien installer et indique la version de mavenµ
+mvn -v -> permet de savoir si maven est bien installé et indique la version de maven
 
-mvn -clean -> clean le projet et donc supprime le package target qui contient les classes compilee ainsi que les potentiels .jar
+mvn -clean -> clean le projet et donc supprime le package target qui contient les classes compilees ainsi que les potentiels .jar
 
 mvn -compile -> compile les classes .java en .class dans le repertoire target
 
@@ -37,7 +37,7 @@ mvn -package -> cree les .jar
 
 -mvn install -> install la librairie dans le repertoire m2 en .jar 
 
-IMPORTANT : maven fonctionne en cycle cad que quandd vous faites en mvn compile un mvn clean sera fait avant si vous faites mvn -package mvn clean sera fait, mvn -compile, etc
+IMPORTANT : maven fonctionne en cycle cad que quand vous faites en mvn compile un mvn clean sera fait avant si vous faites mvn -package mvn clean sera fait, mvn -compile, etc
 
 */
 
@@ -76,7 +76,7 @@ IMPORTANT : maven fonctionne en cycle cad que quandd vous faites en mvn compile 
 </build>
 
 /*le plugin shade permet de creer 2 jar, un jar normal : celui ci ira chercher les depandances dynamiquement
- dans le repertoire m2 ou sur internet si les depandance ne sont pas en local, un jar original sera creer avec les dependances embarquees
+ dans le repertoire m2 ou sur internet si les depandances ne sont pas en local, un jar original sera créé avec les dependances embarquees
  plus volumineux mais utile si on veut utilise le jar sur une machine sans maven et donc sans repertoire m2 ou sans internet
  (donc incapable d'aller les chercher)*/
 

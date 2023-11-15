@@ -7,7 +7,7 @@ package com.example.restservice;
 
 public record Greeting(long id, String content) { }
 
-/*Un record est une classe imuable (ces donnees ne peuvent etre modifie et on ne peux pas en heriter) mais elle comporte des avantages : 
+/*Un record est une classe imuable (ces donnees ne peuvent etre modifiée et on ne peux pas en heriter mais elle comporte des avantages : 
 
 -Elle est serializable
 -Elle est parsable en Json (parfait pour le projet)
