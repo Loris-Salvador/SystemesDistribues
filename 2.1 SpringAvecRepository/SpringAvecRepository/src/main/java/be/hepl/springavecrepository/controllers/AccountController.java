@@ -1,6 +1,5 @@
 package be.hepl.springavecrepository.controllers;
 
-import be.hepl.springavecrepository.model.Account;
 import be.hepl.springavecrepository.repositories.AccountRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
