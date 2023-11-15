@@ -88,6 +88,28 @@ public class MessageController {
 
 //Pareil que Service annotation Controller etend de Component donc spring instancie
 
+
+//message generator
+
+package be.hepl.componentscan.model;
+
+import java.util.Random;
+
+public class MessageGenerator {
+
+    private String message;
+    private Random r = new Random();
+
+    public String generateMessage(){
+        return "nombre aleatoire : " + r.nextInt(10);
+    }
+}
+
+// oas besoin d'annotation car on l'instancie dans config( c'est une autre maniere de faire)
+
+
+
+
 //html que renvoie le controller et donc on modifie l'attribut message dans le html dans le controller grace a thymeleaf qui permet des templates
 
 <!DOCTYPE html>
