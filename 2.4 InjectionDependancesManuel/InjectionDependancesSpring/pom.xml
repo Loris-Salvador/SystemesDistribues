@@ -8,11 +8,11 @@
         <version>3.1.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>be.hepl</groupId>
-    <artifactId>InjectionDependancesManuel</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>InjectionDependancesSpring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>InjectionDependancesManuel</name>
-    <description>InjectionDependancesManuel</description>
+    <name>InjectionDependancesSpring</name>
+    <description>InjectionDependancesSpring</description>
     <properties>
         <java.version>17</java.version>
     </properties>

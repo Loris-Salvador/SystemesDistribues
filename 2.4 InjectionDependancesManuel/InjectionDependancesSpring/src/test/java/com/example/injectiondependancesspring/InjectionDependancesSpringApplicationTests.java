@@ -1,10 +1,10 @@
-package be.hepl.injectiondependancesmanuel;
+package com.example.injectiondependancesspring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class InjectionDependancesManuelApplicationTests {
+class InjectionDependancesSpringApplicationTests {
 
     @Test
     void contextLoads() {

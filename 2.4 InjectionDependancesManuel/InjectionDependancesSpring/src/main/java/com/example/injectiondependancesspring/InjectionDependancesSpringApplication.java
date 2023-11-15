@@ -1,13 +1,13 @@
-package be.hepl.injectiondependancesmanuel;
+package com.example.injectiondependancesspring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InjectionDependancesManuelApplication {
+public class InjectionDependancesSpringApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(InjectionDependancesManuelApplication.class, args);
+        SpringApplication.run(InjectionDependancesSpringApplication.class, args);
     }
 
 }
