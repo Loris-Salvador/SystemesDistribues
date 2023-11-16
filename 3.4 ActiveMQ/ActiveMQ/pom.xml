@@ -9,27 +9,19 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>be.hepl</groupId>
-    <artifactId>Artemis</artifactId>
+    <artifactId>ActiveMQ</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Artemis</name>
-    <description>Artemis</description>
+    <name>ActiveMQ</name>
+    <description>ActiveMQ</description>
     <properties>
         <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-artemis</artifactId>
+            <artifactId>spring-boot-starter-activemq</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-json</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.activemq</groupId>
-            <artifactId>artemis-jakarta-server</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
