@@ -1,4 +1,4 @@
-package be.hepl.artemis;
+package be.hepl.activemq;
 
 import jakarta.jms.ConnectionFactory;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -16,10 +16,12 @@ import org.springframework.jms.support.converter.MessageType;
 @EnableJms
 public class Config {
     @Bean
-    public JmsListenerContainerFactory<?> myFactory(@Qualifier("jmsConnectionFactory") ConnectionFactory connectionFactory,
+    public JmsListenerContainerFactory<?> myFactory(ConnectionFactory connectionFactory,
                                                     DefaultJmsListenerContainerFactoryConfigurer configurer) {
         DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
+        // This provides all auto-configured defaults to this factory, including the message converter
         configurer.configure(factory, connectionFactory);
+        // You could still override some settings if necessary.
         return factory;
     }
 

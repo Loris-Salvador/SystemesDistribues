@@ -1,4 +1,4 @@
-/*SPRING INITIALIZER : DEPENDANCE ARTEMIS*/
+/*SPRING INITIALIZER : DEPENDANCE ACTIVEMQ5*/
 
 //rajouter ca au pom
 
@@ -6,19 +6,11 @@
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-json</artifactId> 
 </dependency>
-<dependency>
-    <groupId>org.apache.activemq</groupId>
-    <artifactId>artemis-jakarta-server</artifactId> 
-    <scope>runtime</scope>
-</dependency>
 
 //manipuler donnees json
 
 
-//permet d'avor le serveur embedded
-
-
-/*Config*/
+//
 
     public MessageConverter jacksonJmsMessageConverter() {
         MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
@@ -27,7 +19,7 @@
         return converter;
     }
 
-        public JmsListenerContainerFactory<?> myFactory(@Qualifier("jmsConnectionFactory") ConnectionFactory connectionFactory,
+        public JmsListenerContainerFactory<?> myFactory(ConnectionFactory connectionFactory,
                                                     DefaultJmsListenerContainerFactoryConfigurer configurer) {
         DefaultJmsListenerContainerFactory factory = new DefaultJmsListenerContainerFactory();
         // This provides all auto-configured defaults to this factory, including the message converter
@@ -35,3 +27,12 @@
         // You could still override some settings if necessary.
         return factory;
     }
+
+
+
+//
+
+curl -u admin:admin -XPOST -d "body={\"to\":\"info@example.com\",\"body\":\"Curl Queue Hello\"}" -d "_type=be.hepl.activemq.Email" -d "priority=high" http://localhost:8161/api/message/mailbox?type=queue
+Message sent
+
+
