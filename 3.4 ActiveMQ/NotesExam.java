@@ -32,7 +32,18 @@
 
 //
 
+    messagePostProcessor -> {
+            messagePostProcessor.setStringProperty("priority",
+                    "high");
+            return messagePostProcessor;
+
+
+//curl queue
+
 curl -u admin:admin -XPOST -d "body={\"to\":\"info@example.com\",\"body\":\"Curl Queue Hello\"}" -d "_type=be.hepl.activemq.Email" -d "priority=high" http://localhost:8161/api/message/mailbox?type=queue
-Message sent
 
 
+//topic
+
+
+curl -u admin:admin -XPOST -d "body={\"to\":\"info@example.com\",\"body\":\"Curl Queue Hello\"}" -d "_type=be.hepl.topicactivemq.Email" -d "priority=high" http://localhost:8161/api/message/mytopic?type=topic
