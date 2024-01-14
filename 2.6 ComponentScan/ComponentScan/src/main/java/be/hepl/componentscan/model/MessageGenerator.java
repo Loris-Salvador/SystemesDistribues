@@ -2,6 +2,7 @@ package be.hepl.componentscan.model;
 
 import java.util.Random;
 
+
 public class MessageGenerator {
 
     private String message;

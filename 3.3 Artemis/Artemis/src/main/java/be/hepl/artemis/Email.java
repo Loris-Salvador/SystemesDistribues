@@ -1,7 +1,6 @@
 package be.hepl.artemis;
 
 public class Email {
-
     private String to;
     private String body;
 

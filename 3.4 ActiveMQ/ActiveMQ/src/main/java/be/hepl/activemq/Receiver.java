@@ -20,6 +20,7 @@ public class Receiver{
     {
         System.out.println("Received <" + email + ">");
         log.info("priority=" + String.valueOf(headers.get("priority")));
+        System.out.println(headers.get("priority"));
 
     }
 }
