@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b765f116-0263-4583-bba3-99320f99d4cd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/src/main/java/be/hepl/sayhello/SayHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/say-hello/src/test/java/be/hepl/sayhello/SayHelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/be/hepl/user/SayHelloConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/be/hepl/user/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/java/be/hepl/user/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/src/test/java/be/hepl/user/UserApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ayEmqk553aK2wWAAUNezdoWcWt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/loris/Desktop/B3/SystemesDistribues/SysDisLabo/6.1 LoadBalancing/LoadBalancing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration name="SayHello2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="say-hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="be.hepl.sayhello.SayHelloApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8081" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SayHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="say-hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="be.hepl.sayhello.SayHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="be.hepl.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SayHello2" />
+      <item itemvalue="Spring Boot.SayHelloApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
