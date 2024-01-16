@@ -27,3 +27,8 @@
 
 </body>
 </html>
+
+
+spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.defer-datasource-initialization=true

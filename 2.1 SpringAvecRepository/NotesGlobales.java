@@ -158,6 +158,8 @@ public class InitDb implements CommandLineRunner {
 //Properties
 
 spring.h2.console.enabled=true
+spring.datasource.url=jdbc:h2:mem:testdb
+spring.jpa.defer-datasource-initialization=true
 
 //tester avec localhost:8080/accounts puis localhost:8080/h2-console (pour la bd)
 
