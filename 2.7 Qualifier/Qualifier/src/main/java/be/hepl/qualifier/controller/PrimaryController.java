@@ -4,16 +4,14 @@ import be.hepl.qualifier.service.GreetingService;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class ControllerPrimary {
-
+public class PrimaryController {
     private final GreetingService greetingService;
 
-    public ControllerPrimary(GreetingService greetingService)
-    {
+    public PrimaryController(GreetingService greetingService){
         this.greetingService = greetingService;
     }
 
     public String getMessage(){
-        return greetingService.sayHello();
+        return greetingService.message();
     }
 }

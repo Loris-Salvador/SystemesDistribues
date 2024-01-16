@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99ee6ccd-5c94-4af1-9d3d-7ec536c2d460" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../1.3 WebServiceSpring/WebServiceSpring/src/main/java/com/example/webservicespring/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../1.3 WebServiceSpring/WebServiceSpring/src/main/java/com/example/webservicespring/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.3 WebServiceSpring/WebServiceSpring/src/main/java/com/example/webservicespring/Greeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../1.3 WebServiceSpring/WebServiceSpring/src/main/java/com/example/webservicespring/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.3 WebServiceSpring/WebServiceSpring/src/main/java/com/example/webservicespring/GreetingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.1 SpringAvecRepository/SpringAvecRepository/src/main/java/be/hepl/springavecrepository/controllers/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.1 SpringAvecRepository/SpringAvecRepository/src/main/java/be/hepl/springavecrepository/controllers/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../2.1 SpringAvecRepository/SpringAvecRepository/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.1 SpringAvecRepository/SpringAvecRepository/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/controller/ConstructorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/controller/PrimaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/controller/PropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/service/ConstructorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/service/PropertyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1.2 SpringBoot/SpringBoot/src/main/java/be/hepl/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../1.2 SpringBoot/SpringBoot/src/main/java/be/hepl/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/QualifierApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/QualifierApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/controller/ControllerPrimary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/controller/ControllerServiceA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/service/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/service/GreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/service/GreetingServiceA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/service/GreetingServiceB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/service/PrimaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/java/be/hepl/qualifier/service/PrimaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.7 Qualifier/Qualifier/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -2,20 +2,17 @@ package be.hepl.qualifier.controller;
 
 import be.hepl.qualifier.service.GreetingService;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class ControllerServiceA {
-
+public class ConstructorController {
     private final GreetingService greetingService;
 
-    public ControllerServiceA(@Qualifier("serviceA")GreetingService greetingService)
-    {
+    ConstructorController(@Qualifier("constructorService") GreetingService greetingService){
         this.greetingService = greetingService;
     }
 
     public String getMessage(){
-        return greetingService.sayHello();
+        return greetingService.message();
     }
 }
