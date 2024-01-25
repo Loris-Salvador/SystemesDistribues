@@ -5,7 +5,6 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class ConstructorInjection {
-
     private final GreetingService service;
 
     public ConstructorInjection(GreetingService service)
@@ -17,6 +16,4 @@ public class ConstructorInjection {
     {
         return service.sayHello();
     }
-
-
 }

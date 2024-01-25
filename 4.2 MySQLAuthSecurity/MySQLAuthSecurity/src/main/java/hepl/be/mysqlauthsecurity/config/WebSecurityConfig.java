@@ -33,16 +33,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         DaoAuthenticationProvider authProvider = new DaoAuthenticationProvider();
         authProvider.setUserDetailsService(userDetailsService());
         authProvider.setPasswordEncoder(passwordEncoder());
-
-        authProvider.setPostAuthenticationChecks(userDetails -> {
-            System.out.println("Authentication success for user: " + userDetails.getUsername());
-        });
-
-        authProvider.setPreAuthenticationChecks(userDetails -> {
-            System.out.println("Pre-authentication checks for user: " + userDetails.getUsername());
-        });
-
-
         return authProvider;
     }
 
@@ -62,9 +52,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin()
                 .loginPage("/login")
-                .permitAll()
-                .and()
-                .logout()
                 .permitAll();
+                /*.and()
+                .logout()
+                .permitAll();*/
     }
 }

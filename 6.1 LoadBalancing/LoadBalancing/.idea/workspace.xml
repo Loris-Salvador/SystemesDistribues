@@ -5,32 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b765f116-0263-4583-bba3-99320f99d4cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/src/main/java/be/hepl/sayhello/SayHelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say-hello/src/test/java/be/hepl/sayhello/SayHelloApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/be/hepl/user/SayHelloConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/be/hepl/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/java/be/hepl/user/WebClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/src/test/java/be/hepl/user/UserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.2 GRPC/GRPC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.2 GRPC/GRPC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3.4 ActiveMQ/ActiveMQ/src/main/java/be/hepl/activemq/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../3.4 ActiveMQ/ActiveMQ/src/main/java/be/hepl/activemq/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.1 SpringSecurity/SpringSecurity/src/main/java/be/hepl/springsecurity/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.1 SpringSecurity/SpringSecurity/src/main/java/be/hepl/springsecurity/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.1 SpringSecurity/SpringSecurity/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.1 SpringSecurity/SpringSecurity/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.2 MySQLAuthSecurity/MySQLAuthSecurity/src/main/java/hepl/be/mysqlauthsecurity/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.2 MySQLAuthSecurity/MySQLAuthSecurity/src/main/java/hepl/be/mysqlauthsecurity/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.2 MySQLAuthSecurity/MySQLAuthSecurity/src/main/java/hepl/be/mysqlauthsecurity/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.2 MySQLAuthSecurity/MySQLAuthSecurity/src/main/java/hepl/be/mysqlauthsecurity/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.2 MySQLAuthSecurity/MySQLAuthSecurity/src/main/java/hepl/be/mysqlauthsecurity/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.2 MySQLAuthSecurity/MySQLAuthSecurity/src/main/java/hepl/be/mysqlauthsecurity/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.2 MySQLAuthSecurity/MySQLAuthSecurity/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.2 MySQLAuthSecurity/MySQLAuthSecurity/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.3 OAuth/OAuth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.3 OAuth/OAuth/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,22 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/loris/Desktop/B3/SystemesDistribues/SysDisLabo/6.1 LoadBalancing/LoadBalancing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/loris/Desktop/B3/SystemesDistribues/SysDisLabo/6.1 LoadBalancing/LoadBalancing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="SayHello2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="say-hello" />
